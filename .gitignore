@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Model artifacts (too large for git)
+models/best_model.pkl
+models/scaler.pkl
+models/artifacts/
+
+# MLflow tracking data
+mlruns/
+
+# Dataset (re-downloadable from UCI)
+data/ai4i2020.csv
+
+# Logs
+logs/
+
+# API keys / secrets
+.env
+config_local.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

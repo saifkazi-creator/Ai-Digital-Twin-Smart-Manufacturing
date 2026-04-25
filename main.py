@@ -7,7 +7,6 @@ import subprocess
 # Ensure project root is on the path
 sys.path.append(os.path.dirname(__file__))
 
-
 def main():
     print("=" * 60)
     print(" Smart Manufacturing — AI Digital Twin Pipeline")
